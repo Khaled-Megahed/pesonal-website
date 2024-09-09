@@ -220,10 +220,7 @@ footer
 
 
 }
-img{
-    min-width: 0;
-    max-height: 0;
-}
+
 @media (max-width:950px) 
 {
     .about
