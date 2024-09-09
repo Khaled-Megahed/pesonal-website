@@ -1,0 +1,307 @@
+body
+{
+    margin: 0;
+    background-color: #F5F7F8;
+  
+    
+}
+h1,h2,h2{
+    font-family: Poppins,serif;
+}
+p{
+    font-family: Roboto,sans-serif;
+}
+.header
+{
+    background-color:#f1f3f4 ;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 50px;
+    padding-right: 15px;
+    gap: 20px;
+}
+.header >a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.home-link
+{
+    padding: 10px;
+    background-color:black ;
+    border-radius: 24px;
+}
+.home-link >span
+{
+    color: white;
+}
+.home
+{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px  ;
+    gap: 50px;
+}
+.protofile
+{
+    height: 400px;
+    width: 400px ;
+    border-radius: 50%;
+}
+.home-left
+{
+    
+    display: inline-flex;
+    flex-direction: column;
+    
+}
+.home-left>h1
+{
+  font-size: 3rem;
+}
+.home-left>p
+{
+  font-size: 1.25rem;
+  max-width: 450px;
+}
+.home-left>a >img
+{
+    width: 30px;
+}
+.skills
+{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    font-size: 1.75rem;
+    margin-top: 20px;
+    margin-bottom: 300px;
+
+}
+.skills >div
+{
+    display: flex;
+    gap: 10px;
+}
+.about
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 300px;
+    
+}
+.about>img
+{
+    max-width: 600px;
+    max-height: 600px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    object-fit: cover;
+    min-width: 0;
+    min-height: 0;
+
+
+}
+.about-text
+{
+    display: flex;
+    flex-direction: column;
+    background-color:#f1f3f4;
+    padding: 20px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    max-width: 500px;
+
+}
+.about-text p
+{
+    width: 100%;
+
+}
+.projects-main
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+.projects-title
+{
+    text-align: center;
+    font-size:2rem;
+}
+
+.projects
+{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+
+    
+}
+.project img
+{
+    max-height: 400px;
+    max-width: 300px;
+    border-radius: 15px;
+}
+.project
+{
+    display: flex;
+    background-color:#f1f3f4 ;
+    padding: 20px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+}
+.project-sk
+{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+
+}
+.project-skills
+{
+    padding: 10px;
+    background-color:black ;
+    border-radius: 24px;
+    color: white;
+}
+.links
+{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.links a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.contact-me
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+.contact
+{
+    display: flex;
+    gap: 20px;
+
+
+}
+.contact-part
+{
+    background-color:#f1f3f4 ;
+    padding: 20px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+  
+
+}
+footer
+{
+    text-align: center;
+    background-color:#f1f3f4 ;
+    padding: 5px;
+
+
+}
+img{
+    min-width: 0;
+    max-height: 0;
+}
+@media (max-width:950px) 
+{
+    .about
+    {
+        flex-direction: column;
+        width: 100%;
+       
+    }
+    .about-text > p
+    {
+       width: 100%;
+    }
+    .about-text
+    {
+        max-width:560px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius:10% ;
+    }
+    .about img
+    {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10%;
+    }
+    .about 
+    {
+        align-items: center;
+    }
+}
+@media (max-width:550px) 
+
+{
+    .projects
+    {
+        justify-content: center;
+
+    }
+    .project
+    {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin-right: 10px;
+        margin-left: 10px;
+        position: relative;
+
+    }
+    .project-sk
+    {
+        justify-content: center;
+    }
+    .project >img
+    {
+       align-self: center;
+    }
+    .links
+    {
+        justify-content: center;
+
+    }
+    .home-left > h1, .home-left > p
+    {
+       text-align: center;
+    }
+    .home-left > a 
+    {
+        margin-left: 10px;
+    }
+    .contact
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-part
+    {
+        width: 100%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
